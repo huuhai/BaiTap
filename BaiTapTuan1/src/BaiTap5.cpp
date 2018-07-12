@@ -22,7 +22,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	printf("Nam: ");
 	scanf_s("%d", &nam);
 
-	if((ngay>0 && ngay<=31) && (thang >0 && thang<12) && (nam>0)){
+	if((ngay>0 && ngay<=31) && (thang >0 && thang<=12) && (nam>0)){
 		if((nam%4==0 && nam%100!=0) || (nam%400==0)){
 			switch(thang){
 				case 1:
