@@ -1,0 +1,6 @@
+Code convention chưa đúng với c++. tham khảo thêm tại: https://google.github.io/styleguide/cppguide.html
+
+Ý là tên biến nên đặt bằng tiếng anh, sử dụng dấu cách thay cho tab. Đặt tên biến theo kiểu camelCase đặt tên hàm theo kiểu snake_case...
+
+- Bài 3 chưa đúng (mặc dù đầu bài cũng cho ví dụ sai). Cách tính cước taxi sẽ tính theo block kiểu như tính cước đt ấy. Nghĩa là 1km đầu fix 10k, các block tiếp theo sẽ theo 200m cộng thêm 1k5...
+- Các bài nên viết thành hàm (có đầu vào đầu ra rõ ráng). Ví dụ bài chuẩn hóa chuỗi nên có 1 hàm lấy đầu vào là 1 mảng. Sau đó hàm main làm nhiệm vụ lấy dữ liệu tuừ người dùng, gọi hàm chuẩn hóa, in ra chuỗi đã chuẩn hóa. Làm vậy thì dễ viết test case mà không cần phải chạy và nhập đi nhập lại bằng tay.
